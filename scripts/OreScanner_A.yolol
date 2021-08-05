@@ -1,0 +1,4 @@
+if :Scanner>0 then goto3 end goto2 
+:Scanning="Scanner Offline" goto1 
+:Scan=1 :index=0 L1=:Material+"\n"+(:Volume/1728)+" kv" :index=1
+L2="\n"+:Material+"\n"+(:Volume/1728)+" kv" :Scanning=L1+L2 goto1

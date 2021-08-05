@@ -1,0 +1,7 @@
+// Auto-Scanner by Archaegeo, modded by vrl
+if :OSATrig>0 then :OSA=1 end
+if :OSATrig>0 then goto3 end goto1
+if :OSATrig>0 then :OSATrig=0 end
+:Scan=1 :index=0 L1=:MaterialOre+"\n"+(:Volume/1728)+" kv"
+:index=1 L2="\n"+:MaterialOre+"\n"+(:Volume/1728)+" kv"
+:Scanning=L1+L2 :OSA=0 goto1
