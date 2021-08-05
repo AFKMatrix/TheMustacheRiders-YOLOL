@@ -1,0 +1,13 @@
+i=:insideSafeZone
+:BeaconWarn=:Beacon*(not i)
+if i then :TBC=2 a=0 else :TBC=0 a=1 end
+if (not b)*a then :Beacon=0 b=1 end
+if (not a)*b then a=0 end goto2
+
+// Changes warning button color to red if exit safezone and turns
+// off transponder.  If button pressed after turn off, transponder
+// stays on.
+// Fields To set on Devices:
+// Beacon - First field of warning button and Transponder.
+// tbc = ButtonColor on warning button
+// BeaconWarn = ButtonEnableBlink on warning button
