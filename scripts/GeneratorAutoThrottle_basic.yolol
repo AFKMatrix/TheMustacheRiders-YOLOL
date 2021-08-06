@@ -1,8 +1,10 @@
-a=:CurBatt/100 ifa>0.001then:GenRate=a else:GenRate=0.001end goto1
+a=100-:CurBatt/100 ifa>0.001then:GenRate=a else:GenRate=0.001end goto1
 
 
 // Check below for multiple batteries
 // Multiply the 100 by the number of batteries you use
+// and replace where the 500 example is
 
-a=(:CurBatt1+:CurBatt2+:CurBatt3+:CurBatt4+:CurBatt5)/500
+a=100-((:CurBatt1+:CurBatt2+:CurBatt3+:CurBatt4+:CurBatt5)/500)
 ifa>0.001then:GenRate=a else:GenRate=0.001end goto1
+
