@@ -1,4 +1,4 @@
-# TheMustacheRiders-YOLOL
+# TheMustacheRiders YOLOL Code Repository
 Repository of Starbase YOLOL scripts for the videogame Starbase
 
 ### TODO
