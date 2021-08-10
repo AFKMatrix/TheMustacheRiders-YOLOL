@@ -1,5 +1,5 @@
 # TheMustacheRiders YOLOL Code Repository
-Repository of Starbase YOLOL scripts for the videogame Starbase
+Repository of YOLOL scripts for the videogame Starbase
 
 ### TODO
 Create folders for each type of funcionality, or device
